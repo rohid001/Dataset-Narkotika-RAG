@@ -1,0 +1,6 @@
+# Untuk mengerjakan Fase 1-6 di laptop: semua paket aplikasi + alat pengolahan data dan model lokal.
+-r requirements.txt
+pymupdf==1.28.2
+sentence-transformers==6.1.0
+jupyter>=1.1
+matplotlib>=3.9
