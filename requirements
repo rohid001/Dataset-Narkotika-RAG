@@ -1,0 +1,15 @@
+# Fase 0-1: ekstraksi PDF dan data
+pymupdf>=1.24
+pandas>=2.2
+python-dotenv>=1.0
+
+# Fase 5: indexing dan retrieval
+chromadb>=0.5
+rank-bm25>=0.2.2
+sentence-transformers>=3.0
+
+# Notebook EDA
+jupyter>=1.0
+matplotlib>=3.8
+
+# Fase 6-7 (ditambahkan saat fasenya dimulai): SDK provider LLM, streamlit
