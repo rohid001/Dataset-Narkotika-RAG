@@ -100,7 +100,7 @@ def ambil_jenis_narkotika(amar: str) -> str:
     kamus = [
         ("sabu", ["sabu", "shabu", "metamfetamin"]),
         ("ganja", ["ganja"]),
-        ("ekstaksi", ["ekstasi", "ekstasy", "ecstasy"])
+        ("ekstasi", ["ekstasi", "ekstasy", "ecstasy"])
     ]
     jenis = []
     for nama, kata_kata in kamus:

@@ -6,3 +6,5 @@ __pycache__/
 .ipynb_checkpoints/
 data/chroma/
 .DS_Store
+validasi.txt
+data/cache_gemini.pkl

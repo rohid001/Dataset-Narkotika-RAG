@@ -99,7 +99,7 @@ STOP_NAMA = {"Ahli", "Verbalisan", "Mahkota", "Penangkap", "Yang", "Tersebut", "
 # Nama: 1-4 kata yang diawali huruf besar, mis. "Eko Setiadi" atau "RISNAL HARAHAP"
 NAMA_RE = r"[A-Z][A-Za-z\.']+(?:\s+[A-Z][A-Za-z\.']+){0,3}"
 # "saksi EKO bersama dengan RISNAL, DWI ANSARI dan BUDI": grup 1 = daftar nama setelah "bersama"
-BERSAMA_RE = (r"[Ss]aks\s+[A-Z][A-Z\.' ]+?\s+bersama(?:\s+dengan)?\s+"
+BERSAMA_RE = (r"[Ss]aksi\s+[A-Z][A-Z\.' ]+?\s+bersama(?:\s+dengan)?\s+"
               r"([A-Z][A-Z\.', ]+?(?:\s+dan\s+[A-Z][A-Z\.' ]+))")
 
 def bersihkan_nama(teks: str) -> str:
