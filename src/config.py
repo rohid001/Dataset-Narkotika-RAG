@@ -23,3 +23,5 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 LLM_MODEL = os.getenv("LLM_MODEL", "gemini-3.5-flash")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+RETRIEVAL_MODE= os.getenv("RETRIEVAL_MODE", "vektor") # vektor / bm25 / hibrida (hasil terbaik Fase 5: vektor)
+ 
